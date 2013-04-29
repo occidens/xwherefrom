@@ -1,0 +1,3 @@
+#! /bin/bash
+
+xattr -x -p com.apple.metadata:kMDItemWhereFroms "$1"
